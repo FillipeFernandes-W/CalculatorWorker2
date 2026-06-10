@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="app.ico" />
+    <Content Include="IconeWorker.ico" />
   </ItemGroup>
 
   <ItemGroup>
