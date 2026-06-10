@@ -41,7 +41,7 @@ DisableProgramGroupPage=yes
 OutputBaseFilename=CalculatorWorker2Installer.exe
 SolidCompression=yes
 WizardStyle=modern dark
-SetupIconFile=app.ico
+SetupIconFile=IconeWorker.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
