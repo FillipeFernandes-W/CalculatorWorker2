@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-CalculatorWorker2-badaf9fa-36ae-48b8-b7c4-3e44b4f65ca9</UserSecretsId>
 
-    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationIcon>IconeWorker.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
