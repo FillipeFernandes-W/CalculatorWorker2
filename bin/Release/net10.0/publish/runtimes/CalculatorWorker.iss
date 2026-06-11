@@ -38,10 +38,10 @@ DisableProgramGroupPage=yes
 
 ; Uncomment the following line to run in non administrative install mode (install for current user only).
 ;PrivilegesRequired=lowest
-OutputBaseFilename=CalculatorWorker2Installer.exe
+OutputBaseFilename=CalculatorWorker2Installer
 SolidCompression=yes
 WizardStyle=modern dark
-SetupIconFile=IconeWorker.ico
+SetupIconFile=C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\IconeWorker.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -51,7 +51,7 @@ Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortugue
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\publish\*"; DestDir: "{app}"; Excludes: "runtimes\Output\*,runtimes\*.iss"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
