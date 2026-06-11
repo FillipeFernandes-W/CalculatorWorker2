@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalculatorWorker2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c40f429b148ec12916c3ed1f211b9f93acfdf58b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalculatorWorker2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalculatorWorker2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

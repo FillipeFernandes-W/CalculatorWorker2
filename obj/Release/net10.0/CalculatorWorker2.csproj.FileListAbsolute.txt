@@ -49,3 +49,4 @@ C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\obj\Release\net10.0\ref\Calcul
 C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\Microsoft.Extensions.Hosting.WindowsServices.dll
 C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\System.ServiceProcess.ServiceController.dll
 C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\runtimes\win\lib\net10.0\System.ServiceProcess.ServiceController.dll
+C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\obj\Release\net10.0\CalculatorWorker2.sourcelink.json

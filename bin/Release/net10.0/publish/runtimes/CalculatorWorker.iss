@@ -20,7 +20,7 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
-UninstallDisplayIcon={app}\{#MyAppExeName}
+UninstallDisplayIcon={app}\IconeWorker.ico
 VersionInfoVersion=1.1.0.0
 AllowNoIcons=yes
 DisableDirPage=no
@@ -52,11 +52,12 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 Source: "C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\bin\Release\net10.0\publish\*"; DestDir: "{app}"; Excludes: "runtimes\Output\*,runtimes\*.iss"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\PMB\Downloads\Trabalho\CalculatorWorker2\IconeWorker.ico"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
-Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
+Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\IconeWorker.ico"
+Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; IconFilename: "{app}\IconeWorker.ico"; Tasks: desktopicon
 
 [Run]
 Filename: "sc.exe"; Parameters: "create CalculatorWorker2 binPath= ""{app}\CalculatorWorker2.exe"" start= auto"; Flags: runhidden waituntilterminated
